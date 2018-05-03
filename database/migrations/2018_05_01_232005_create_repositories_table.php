@@ -20,7 +20,7 @@ class CreateRepositoriesTable extends Migration
             $table->string("name");
             $table->string("description")->nullable();
             $table->timestamp("creation_date");
-            $table->timestamp('last_commit')->nullable(;
+            $table->timestamp('last_commit')->nullable();
         });
     }
 

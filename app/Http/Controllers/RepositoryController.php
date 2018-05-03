@@ -11,6 +11,7 @@ use Carbon\Carbon;
 
 class RepositoryController extends Controller
 {
+  protected $orgName="githubtraining";
     /**
      * Display a listing of the resource.
      *
@@ -27,7 +28,7 @@ class RepositoryController extends Controller
      * return an array of App\Repository with data downloaded from de github api
      */
     public function getRepositoriesData(){
-      $orgName="githubtraining";
+      $orgName=$this->orgName;
       if(isset($request->repositoryName)){
         $orgName=$request->repositoryName;
       }
