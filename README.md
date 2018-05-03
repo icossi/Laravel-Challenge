@@ -27,6 +27,10 @@ GIT_USER=yourGitHubUsername
 GIT_PASS=yourGitHubPAssword
 ```
 **If you not configure this, you will have access to 60 connections per hour, so please add the variables to have full access to the API** 
+Generate an Application Key for your application.
+```
+php artisan key:generate
+```
 
 Migrations
 
