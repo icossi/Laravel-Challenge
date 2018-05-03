@@ -9,7 +9,7 @@ git clone https://github.com/icossi/laravel-challenge.git
 
 ### Prerequisites
 
-* Php > 7.1
+* PHP > 7.1
 * Composer
 * Laravel
 * MySQL 
