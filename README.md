@@ -1,5 +1,5 @@
 # laravel-challenge
-laravel-challenge
+laravel-challenge allows to connect to a public organization via github's API and get all the repositories from the organization
 
 ## Getting Started
 You can clone the laravel-challenge source directory with:
@@ -21,7 +21,12 @@ Go to the repository's path on your terminal and run
 ```
 composer install
 ```
-Configure yout .env file to connect correctly to your database
+Configure your .env file to connect correctly to your database and **add the variables**
+```
+GIT_USER=yourGitHubUsername
+GIT_PASS=yourGitHubPAssword
+```
+**If you not configure this, you will have access to 60 connections per hour, so please add the variables to have full access to the API** 
 
 Migrations
 
@@ -29,14 +34,22 @@ Migrations
 php artisan migrate
 ```
 
+
 ### Usage
 
-The application connect to the default public organization "githubtraining", 
+Laravel-challenge connect to the default public organization "githubtraining", 
 you can change to another organization just changing the protected attribute $orgName on App\Http\Controllers\RepositoryController.php
+
+The route to enter to your repositories list must be:
+
+*YoutServerURL*/repositories
+
+### Test
+You can see the code coverage information from the unit test on the CodeCoverage 
 
 ## Authors
 
-* **Ivan cossi camacho** - *Initial work* - [PurpleBooth](https://github.com/icossi)
+* **Ivan cossi camacho** - *Initial work* - [icossi](https://github.com/icossi)
 
 
 
