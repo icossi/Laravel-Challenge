@@ -1,5 +1,5 @@
 # laravel-challenge
-laravel-challenge allows to connect to a public organization via github's api and get all the repositories from the organization
+laravel-challenge allows to connect to a public organization via github's API and get all the repositories from the organization
 
 ## Getting Started
 You can clone the laravel-challenge source directory with:
@@ -21,13 +21,19 @@ Go to the repository's path on your terminal and run
 ```
 composer install
 ```
-Configure yout .env file to connect correctly to your database
+Configure your .env file to connect correctly to your database and **add the variables**
+```
+GIT_USER=yourGitHubUsername
+GIT_PASS=yourGitHubPAssword
+```
+**If you not configure this, you will have access to 60 connections per hour, so please add the variables to have full access to the API** 
 
 Migrations
 
 ```
 php artisan migrate
 ```
+
 
 ### Usage
 
