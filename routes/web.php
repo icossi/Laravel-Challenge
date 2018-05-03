@@ -11,6 +11,6 @@
 |
 */
 
+Route::resource('/', 'RepositoryController');
 
-
-Route::get('/','RepositoryController@index');
+Route::get('/repositories','RepositoryController@index');
