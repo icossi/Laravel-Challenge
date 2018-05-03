@@ -44,6 +44,8 @@ The route to enter to your repositories list must be:
 
 *YoutServerURL*/repositories
 
+### Test
+You can see the code coverage information from the unit test on the CodeCoverage 
 
 ## Authors
 
