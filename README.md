@@ -36,7 +36,7 @@ you can change to another organization just changing the protected attribute $or
 
 ## Authors
 
-* **Ivan cossi camacho** - *Initial work* - [PurpleBooth](https://github.com/icossi)
+* **Ivan cossi camacho** - *Initial work* - [icossi](https://github.com/icossi)
 
 
 
