@@ -31,8 +31,13 @@ php artisan migrate
 
 ### Usage
 
-The application connect to the default public organization "githubtraining", 
+Laravel-challenge connect to the default public organization "githubtraining", 
 you can change to another organization just changing the protected attribute $orgName on App\Http\Controllers\RepositoryController.php
+
+The route to enter to your repositories list must be:
+
+*YoutServerURL*/repositories
+
 
 ## Authors
 
