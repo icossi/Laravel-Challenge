@@ -1,5 +1,5 @@
 # laravel-challenge
-laravel-challenge allows to connect to a public organization via github's api and get all the repositories from this
+laravel-challenge allows to connect to a public organization via github's api and get all the repositories from the organization
 
 ## Getting Started
 You can clone the laravel-challenge source directory with:
